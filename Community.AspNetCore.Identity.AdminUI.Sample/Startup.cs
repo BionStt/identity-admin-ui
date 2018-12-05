@@ -40,6 +40,7 @@ namespace Community.AspNetCore.Identity.AdminUI.Sample
                 .AddSignInManager()
                 .AddRoles<CustomRole>()
                 .AddDefaultUI()
+                .AddAdminUI()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 

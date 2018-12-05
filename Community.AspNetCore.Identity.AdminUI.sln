@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.AspNetCore.Identity.AdminUI", "Community.AspNetCore.Identity.AdminUI\Community.AspNetCore.Identity.AdminUI.csproj", "{A4A8576A-9C27-41C5-90CE-6C1ABAE00365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Community.AspNetCore.Identity.AdminUI", "Community.AspNetCore.Identity.AdminUI\Community.AspNetCore.Identity.AdminUI.csproj", "{A4A8576A-9C27-41C5-90CE-6C1ABAE00365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.AspNetCore.Identity.AdminUI.Sample", "Community.AspNetCore.Identity.AdminUI.Sample\Community.AspNetCore.Identity.AdminUI.Sample.csproj", "{83C649D2-63B8-4670-8569-E5A2E5F502A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Community.AspNetCore.Identity.AdminUI.Sample", "Community.AspNetCore.Identity.AdminUI.Sample\Community.AspNetCore.Identity.AdminUI.Sample.csproj", "{83C649D2-63B8-4670-8569-E5A2E5F502A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
