@@ -7,10 +7,18 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Community.AspNetCore.Identity.AdminUI.Areas.IdentityAdmin.Pages.Users
 {
+    [IdentityAdminUI(typeof(IndexModel<,>))]
     public class IndexModel : PageModel
     {
         public void OnGet()
         {
         }
+    }
+
+    internal class IndexModel<TUser, TRole> : IndexModel
+        where TUser : class
+        where TRole : class
+    {
+        
     }
 }

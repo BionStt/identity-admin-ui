@@ -29,7 +29,7 @@
                 throw new InvalidOperationException("Implementation type can't be abstract or non generic.");
             }
             var genericArguments = template.GetGenericArguments();
-            if (genericArguments.Length != 1)
+            if (genericArguments.Length != 2)
             {
                 throw new InvalidOperationException("Implementation type contains wrong generic arity.");
             }
